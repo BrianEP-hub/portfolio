@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Projects } from 'lib/helpers/helpers';
-import * as projectData from '../../assets/projects.json';
+import { Projects } from 'src/app/helpers/helpers';
+import projectData from 'src/app/assets/projects.json';
 
 
 @Component({
@@ -13,13 +13,14 @@ export class ProjectsComponent implements OnInit {
 
   projects: Projects[] = projectData;
 
+  // projectsData = projectData;
+
   constructor(){
 
   }
 
   ngOnInit(){
+    // console.log(this.projectsData)
     console.log(this.projects)
   }
-
-  
 }

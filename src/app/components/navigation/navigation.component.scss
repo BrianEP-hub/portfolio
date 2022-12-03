@@ -1,0 +1,11 @@
+.example-spacer{
+    flex: 1 1 auto;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    .nav-link{
+        color: #fff;
+        text-decoration: none;
+    }
+}
