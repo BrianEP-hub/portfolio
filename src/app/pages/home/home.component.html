@@ -5,6 +5,18 @@
         </mat-card-title>
     </mat-card-header>
     <mat-card-content>
-
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    Skills
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let skill of skills">
+                    <mat-label>{{skill.name}}</mat-label>
+                    <mat-progress-bar mode="buffer" value={{skill.value}}></mat-progress-bar>
+                </div>
+            </mat-card-content>
+        </mat-card>
     </mat-card-content>
 </div>

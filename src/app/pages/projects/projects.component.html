@@ -13,6 +13,16 @@
                 </mat-card-title>
             </mat-card-header>
             <mat-card-content>
+                <div class="image">
+                    <img src={{project.image}} alt={{project.name}}>
+                </div>
+                <div class="description">
+                    {{project.description}}
+                </div>
+                <div class="links">
+                    <a href={{project.repo}}>Link to repo</a>
+                    <a href={{project.link}}>Link to site</a>
+                </div>
             </mat-card-content>
         </mat-card>
     </div>

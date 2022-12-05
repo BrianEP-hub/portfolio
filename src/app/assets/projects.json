@@ -2,22 +2,22 @@
   {
     "name": "Project Exam 2",
     "link": "",
-    "description": "",
-    "repo": "",
+    "description": "Holidaze, create a website for a local tourism agency based in Bergen named holidaze. Users are to be able to browse through and find accommodations and put in booking for a room/appartment.",
+    "repo": "https://github.com/Noroff-FEU-Assignments/project-exam-2-BrianEP-hub",
     "image": ""
   },
   {
     "name": "Semester Project 2",
     "link": "",
-    "description": "",
-    "repo": "",
+    "description": "TechHub, create a blogstyle website for technical posts about development",
+    "repo": "https://github.com/BrianEP-hub/semester-project-2",
     "image": ""
   },
   {
     "name": "JavaScript Frameworks 2",
     "link": "",
     "description": "",
-    "repo": "",
+    "repo": "https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-BrianEP-hub",
     "image": ""
   }
 ]
