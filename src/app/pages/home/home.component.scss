@@ -2,3 +2,18 @@
     background-color: #191919;
     min-height: 100vh;
 }
+.content-wrapper{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    mat-card{
+        max-width: 800px;
+    }
+    .skill-card{
+        width: 500px;
+    }
+}
+.info-content{
+    display: flex;
+    gap: 10px;
+}

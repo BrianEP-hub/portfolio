@@ -19,5 +19,33 @@
     "description": "",
     "repo": "https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-BrianEP-hub",
     "image": ""
+  },
+  {
+    "name": "Crypto app",
+    "link": "https://brianep-hub-crypto-tracker.netlify.app/",
+    "description": "Self made crypto tracker built with reactjs, axios, antd and reduxjs toolkit",
+    "repo": "https://github.com/BrianEP-hub/cryptoapp",
+    "image": ""
+  },
+  {
+    "name": "Weather API",
+    "link": "",
+    "description": "Web scraper API for weather news buildt with axios, cheerio, express and nodemon",
+    "repo": "https://github.com/BrianEP-hub/github-weather",
+    "image": ""
+  },
+  {
+    "name": "Games dashboard",
+    "link": "https://brianep-hub-angular-dashboard.netlify.app/",
+    "description": "Games display built with Angular 12.2.7 and angular material",
+    "repo": "https://github.com/BrianEP-hub/angular-dashboard-app",
+    "image": ""
+  },
+  {
+    "name": "SpaceX microsite",
+    "link": "https://brianep-hub-project-exam-1.netlify.app/",
+    "description": "First semester Exam project, SpaceX microsite with launch details and countdowntimer for next launch of spaceshuttle",
+    "repo": "https://github.com/BrianEP-hub/Project-Exam",
+    "image": ""
   }
 ]

@@ -16,3 +16,10 @@ export interface Skills {
     name: string,
     value: number
 }
+
+export interface Info {
+    name: string,
+    position: string,
+    description: string,
+    image: string,
+}

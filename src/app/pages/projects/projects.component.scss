@@ -12,5 +12,19 @@
         min-height: 300px;
         max-width: 500px;
         width: 300px;
+        mat-card-actions{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            gap: 10px;
+            .btn{
+                padding: 10px;
+                background-color: blue;
+                color: #fff;
+                border-radius: 5px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
     }
 }
