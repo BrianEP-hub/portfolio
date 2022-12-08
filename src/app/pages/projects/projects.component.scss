@@ -4,8 +4,13 @@
 }
 .cards-wrapper{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    .project-card{
+        min-height: 300px;
+        max-width: 500px;
+        width: 300px;
+    }
 }

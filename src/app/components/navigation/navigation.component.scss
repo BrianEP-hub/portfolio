@@ -9,3 +9,28 @@
         text-decoration: none;
     }
 }
+.menu-icon{
+    display: none;
+}
+
+.menu-links{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .nav-link{
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .links{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}

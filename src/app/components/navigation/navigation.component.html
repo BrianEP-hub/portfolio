@@ -1,12 +1,5 @@
 <mat-toolbar>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with menu icon"
-  >
-    <mat-icon>menu</mat-icon>
-  </button>
-  <span>My App</span>
+  <span>My Portfolio</span>
   <span class="example-spacer"></span>
   <div class="links">
     <a class="nav-link" routerLink="" fragment="home">Home</a>
@@ -16,16 +9,19 @@
   <span class="example-spacer"></span>
   <button
     mat-icon-button
-    class="example-icon favorite-icon"
-    aria-label="Example icon-button with heart icon"
+    class="menu-icon"
+    aria-label="Example icon-button with menu icon"
+    [mat-menu-trigger-for]='menu'
   >
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button
-    mat-icon-button
-    class="example-icon"
-    aria-label="Example icon-button with share icon"
-  >
-    <mat-icon>share</mat-icon>
+    <mat-icon>menu</mat-icon>
   </button>
 </mat-toolbar>
+
+
+<mat-menu #menu>
+  <div class="menu-links">
+    <a class="nav-link" routerLink="" fragment="home">Home</a>
+    <a class="nav-link" routerLink="" fragment="project">Projects</a>
+    <a class="nav-link" routerLink="" fragment="contact">Contact</a>
+  </div>
+</mat-menu>
