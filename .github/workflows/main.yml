@@ -43,9 +43,9 @@ jobs:
         run: |
           npm run build --
 
-      - name: Deploy
-        run: |
-          npm run deploy --
+      # - name: Deploy
+      #   run: |
+      #     npm run deploy --
           
       # - name: Lint
       #   run: |
