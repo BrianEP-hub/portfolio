@@ -1,0 +1,12 @@
+{
+    "design": {
+        "service": "Design service",
+        "description": "",
+        "icon": ""
+    },
+    "code": {
+        "service": "Code service",
+        "description": "",
+        "icon": ""
+    }
+}
