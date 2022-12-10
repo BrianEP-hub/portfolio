@@ -4,41 +4,41 @@
     "link": "",
     "description": "Holidaze, create a website for a local tourism agency based in Bergen named holidaze. Users are to be able to browse through and find accommodations and put in booking for a room/appartment.",
     "repo": "https://github.com/Noroff-FEU-Assignments/project-exam-2-BrianEP-hub",
-    "image": "../../assets/images/projects/exam2.png"
+    "image": "/assets/images/projects/exam2.png"
   },
   {
     "name": "Semester Project 2",
     "link": "",
     "description": "TechHub, create a blogstyle website for technical posts about development",
     "repo": "https://github.com/BrianEP-hub/semester-project-2",
-    "image": "../../assets/images/projects/semesterProject2.png"
+    "image": "/assets/images/projects/semesterProject2.png"
   },
   {
     "name": "JavaScript Frameworks 2",
     "link": "",
     "description": "",
     "repo": "https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-BrianEP-hub",
-    "image": "../../assets/images/projects/"
+    "image": "/assets/images/projects/"
   },
   {
     "name": "Crypto app",
     "link": "https://brianep-hub-crypto-tracker.netlify.app/",
     "description": "Self made crypto tracker built with reactjs, axios, antd and reduxjs toolkit. NOTE!: The api has changed since the build was deployed, new production is underway!",
     "repo": "https://github.com/BrianEP-hub/cryptoapp",
-    "image": "../../assets/images/projects/cryptoapp.png"
+    "image": "/assets/images/projects/cryptoapp.png"
   },
   {
     "name": "Games dashboard",
     "link": "https://brianep-hub-angular-dashboard.netlify.app/",
     "description": "Games display built with Angular 12.2.7 and angular material. NOTE!: The api has changed since the build was deployed, new production is underway!",
     "repo": "https://github.com/BrianEP-hub/angular-dashboard-app",
-    "image": "../../assets/images/projects/gamesDashboard.png"
+    "image": "/assets/images/projects/gamesDashboard.png"
   },
   {
     "name": "SpaceX microsite",
     "link": "https://brianep-hub-project-exam-1.netlify.app/",
     "description": "First semester Exam project, SpaceX microsite with launch details and countdowntimer for next launch of spaceshuttle",
     "repo": "https://github.com/BrianEP-hub/Project-Exam",
-    "image": "../../assets/images/projects/exam1.png"
+    "image": "/assets/images/projects/exam1.png"
   }
 ]
