@@ -1,5 +1,8 @@
 # Portfolio
 
+## Languages used
+![My Skills](https://skillicons.dev/icons?i=angular,scss,typescript)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
 ## Development server
