@@ -1,0 +1,23 @@
+[
+    {
+        "company": "Cameron a SLB company",
+        "country": "Norway",
+        "time": "Current - ",
+        "title": "Software Engineer - PC APPLICATIONS",
+        "description": "Developing applications windows side for wellbore activities, involved in application of DrillSync Platform"
+    },
+    {
+        "company": "Telenor AS",
+        "country": "Norway",
+        "time": "2019 - 2020",
+        "title": "Customer service - Callcenter",
+        "description": "Recive incoming calls from customers, troubleshooting mobile and fiber issues and if applicable sales of new and upsale of current subscriptions"
+    },
+    {
+        "company": "Norwegian Armed Forces, Engineer Batalion",
+        "country": "Norway",
+        "time": "2012 - 2019",
+        "title": "Specialist 1st Class - Combat Engineer Platoon",
+        "description": "Armored Combat Engineer, comms specialist with extended responsibilites witholding platoon status on equipment"
+    }
+]
