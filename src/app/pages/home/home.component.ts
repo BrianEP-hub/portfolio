@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Skills, Info } from 'src/app/helpers/helpers';
+import { Skills, Info, Experience, Eductaion } from 'src/app/helpers/helpers';
 import skillsData from '../../../assets/skills.json';
 import infoData from '../../../assets/info.json';
+import experienceData from '../../../assets/experience.json';
+import educationData from '../../../assets/education.json';
 
 @Component({
   selector: 'app-home',
@@ -14,9 +16,12 @@ export class HomeComponent implements OnInit {
 
   info: Info = infoData;
 
+  experience: Experience[] = experienceData;
+  education: Eductaion[] = educationData;
+
   constructor(){}
   ngOnInit(): void {
-    console.log(this.skills)
+    // console.log(this.skills)
   }
   
 

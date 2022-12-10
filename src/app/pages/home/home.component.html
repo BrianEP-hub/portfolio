@@ -1,31 +1,77 @@
 <div class="wrapper">
-    <mat-card-content class="content-wrapper">
-        <mat-card class="info-card">
-            <mat-card-header>
-                <mat-card-title>
-                    {{info.name}}
-                </mat-card-title>
-                <mat-card-subtitle>
-                    {{info.position}}
-                </mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content class="info-content">
-                <div class="info">
-                    <div class="description">
-                        {{info.description}}
-                    </div>
-                    <div class="skills">
-                        <div *ngFor="let skill of skills">
-                            <mat-label>{{skill.name}}</mat-label>
-                            <mat-progress-bar mode="buffer" value={{skill.value}}></mat-progress-bar>
-                        </div>
-                    </div>
-                </div>
-                <div class="image">
-                    <img src={{info.image}} alt={{info.name}}>
-                    <mat-label>Photo: Private</mat-label>
-                </div>
-            </mat-card-content>
-        </mat-card>
-    </mat-card-content>
+  <mat-card-content class="content-wrapper">
+    <mat-card class="info-card">
+      <mat-card-header>
+        <mat-card-title>
+          {{ info.name }}
+        </mat-card-title>
+        <mat-card-subtitle>
+          {{ info.position }}
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content class="info-content">
+        <div class="info">
+          <div class="description">
+            {{ info.description }}
+          </div>
+          <div class="skills">
+            <mat-card-subtitle> Skills </mat-card-subtitle>
+            <div *ngFor="let skill of skills">
+              <mat-label>{{ skill.name }}</mat-label>
+              <mat-progress-bar
+                mode="buffer"
+                value="{{ skill.value }}"
+              ></mat-progress-bar>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="{{ info.image }}" alt="{{ info.name }}" />
+          <mat-label>Photo: Private</mat-label>
+        </div>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="experience-card">
+      <mat-card-content class="experience-content">
+        <div class="education">
+          <mat-card-title> Education </mat-card-title>
+          <ul class="timeline">
+            <li *ngFor="let education of education">
+              <h4>{{ education.programme }}</h4>
+              <em>{{ education.school }}</em>
+              <p class="year">{{ education.time }}</p>
+            </li>
+          </ul>
+        </div>
+        <div class="experience">
+          <mat-card-title> Experience </mat-card-title>
+          <ul class="timeline">
+            <li *ngFor="let experience of experience">
+              <h4>{{ experience.title }}</h4>
+              <em>{{ experience.company }}</em>
+              <p>{{ experience.country }}</p>
+              <p class="year">{{ experience.time }}</p>
+              <p class="description">{{experience.description}}</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+            <mat-card-title>Languages</mat-card-title>
+            <mat-card-subtitle>Spoken</mat-card-subtitle>
+            <ul>
+                <li>Norwegian</li>
+                <li>English</li>
+                <li>German</li>
+            </ul>
+            <mat-card-subtitle>Programming</mat-card-subtitle>
+            <ul>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Pyton</li>
+            </ul>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </mat-card-content>
 </div>
