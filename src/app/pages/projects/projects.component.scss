@@ -4,29 +4,47 @@
 }
 .cards-wrapper{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
-    .project-card{
-        min-height: 300px;
-        max-width: 500px;
-        width: 300px;
-        mat-card-actions{
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            gap: 10px;
-            .btn{
-                padding: 16px;
-                background-color: #7b1fa2;
-                color: #fff;
-                border-radius: 5px;
-                font-size: 14px;
-                font-weight: 500;
-                text-decoration: none;
-                text-transform: uppercase;
+    .projects{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .project-card{
+            min-height: 400px;
+            max-width: 600px;
+            width: 300px;
+            .project-card-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            mat-card-actions{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                gap: 10px;
+                .btn{
+                    padding: 16px;
+                    background-color: #7b1fa2;
+                    color: #fff;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
             }
         }
+    }
+    .services{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 }

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Projects } from 'src/app/helpers/helpers';
+import { Projects, Services } from 'src/app/helpers/helpers';
 import projectData from '../../../assets/projects.json';
+import serviceData from '../../../assets/services.json'
 
 
 @Component({
@@ -12,6 +13,7 @@ import projectData from '../../../assets/projects.json';
 export class ProjectsComponent implements OnInit {
 
   projects: Projects[] = projectData;
+  services: Services[] = serviceData;
 
   // projectsData = projectData;
 

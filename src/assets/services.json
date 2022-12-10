@@ -1,12 +1,12 @@
-{
-    "design": {
-        "service": "Design service",
-        "description": "",
-        "icon": ""
-    },
-    "code": {
-        "service": "Code service",
-        "description": "",
-        "icon": ""
-    }
-}
+[
+  {
+    "service": "Design service",
+    "description": "",
+    "icon": ""
+  },
+  {
+    "service": "Code service",
+    "description": "",
+    "icon": ""
+  }
+]

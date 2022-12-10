@@ -4,16 +4,20 @@
 }
 .content-wrapper{
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     gap: 10px;
-    mat-card{
-        max-width: 800px;
-    }
-    .skill-card{
-        width: 500px;
-    }
+   
 }
 .info-content{
     display: flex;
     gap: 10px;
+    font-size: 18px;
+     .image{
+        display: flex;
+        flex-direction: column;
+        mat-label{
+            font-size: 10px;
+            opacity: 0.5;
+        }
+    }
 }

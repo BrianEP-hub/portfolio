@@ -1,30 +1,49 @@
 <div class="wrapper">
-    <mat-card-header>
-        <mat-card-title>
-            Projects
-        </mat-card-title>
-    </mat-card-header>
-    <mat-card-content class="cards-wrapper">
-        <div *ngFor="let project of projects">
-            <mat-card class="project-card">
-            <mat-card-header>
-                <mat-card-title>
-                    {{project.name}}
-                </mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <div class="image">
-                    <img src={{project.image}} alt={{project.name}}>
-                </div>
-                <div class="description">
-                    {{project.description}}
-                </div>
-            </mat-card-content>
-            <mat-card-actions>
-                <a class="btn" href={{project.repo}}>Link to repo</a>
-                <a class="btn" href={{project.link}}>Link to site</a>
-            </mat-card-actions>
+  <mat-card-header>
+    <mat-card-title> Projects </mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="cards-wrapper">
+    <div class="projects">
+      <div *ngFor="let project of projects">
+        <mat-card class="project-card">
+          <mat-card-header>
+            <mat-card-title>
+              {{ project.name }}
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content class="project-card-content">
+            <div class="image">
+              <img src="{{ project.image }}" alt="{{ project.name }}" />
+            </div>
+            <div class="description">
+              {{ project.description }}
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a class="btn" href="{{ project.repo }}">Link to repo</a>
+            <a class="btn" href="{{ project.link }}">Link to site</a>
+          </mat-card-actions>
         </mat-card>
+      </div>
     </div>
-</mat-card-content>
+    <div class="services">
+      <div *ngFor="let service of services">
+        <mat-card>
+          <mat-card-header>
+            <div mat-card-avatar>
+                <mat-icon>{{service.icon}}</mat-icon>
+            </div>
+            <mat-card-title>
+              {{ service.service }}
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="description">
+                {{ service.description }}
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-card-content>
 </div>
