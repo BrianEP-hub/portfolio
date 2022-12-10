@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Skills, Info } from 'src/app/helpers/helpers';
-import skillsData from '../../assets/skills.json';
-import infoData from '../../assets/info.json';
+import skillsData from '../../../assets/skills.json';
+import infoData from '../../../assets/info.json';
 
 @Component({
   selector: 'app-home',

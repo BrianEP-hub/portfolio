@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Projects } from 'src/app/helpers/helpers';
-import projectData from 'src/app/assets/projects.json';
+import projectData from '../../../assets/projects.json';
 
 
 @Component({
