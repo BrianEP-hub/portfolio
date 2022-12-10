@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Angular",
+        "value": 95
+    },
+    {
+        "name": "React",
+        "value": 85
+    },
+    {
+        "name": "VanillaJS",
+        "value": 90
+    },
+    {
+        "name": "HTML",
+        "value": 100
+    },
+    {
+        "name": "C#",
+        "value": 50
+    }
+]
+  
