@@ -1,15 +1,15 @@
 [
   {
     "name": "Project Exam 2",
-    "link": "",
-    "description": "Holidaze, create a website for a local tourism agency based in Bergen named holidaze. Users are to be able to browse through and find accommodations and put in booking for a room/appartment.",
+    "link": "https://brianep-hub-project-exam2.netlify.app/",
+    "description": "Holidaze, create a website for a local tourism agency based in Bergen named holidaze. Users are to be able to browse through and find accommodations and put in booking for a room/appartment. Due to changes from hosting provider API for this project is not available.",
     "repo": "https://github.com/Noroff-FEU-Assignments/project-exam-2-BrianEP-hub",
     "image": "https://res.cloudinary.com/dkzsmlfpl/image/upload/v1670749951/portfolio/exam2_qr1qbe.avif"
   },
   {
     "name": "Semester Project 2",
-    "link": "",
-    "description": "TechHub, create a blogstyle website for technical posts about development",
+    "link": "https://brianep-hub-sp2.netlify.app/",
+    "description": "TechHub, create a blogstyle website for technical posts about development. Due to changes from hosting provider API for this project is not available.",
     "repo": "https://github.com/BrianEP-hub/semester-project-2",
     "image": "https://res.cloudinary.com/dkzsmlfpl/image/upload/v1670749951/portfolio/semesterProject2_geavp8.avif"
   },
@@ -28,11 +28,11 @@
     "image": "https://res.cloudinary.com/dkzsmlfpl/image/upload/v1670749951/portfolio/cryptoapp_qiiaio.avif"
   },
   {
-    "name": "Games dashboard",
-    "link": "https://brianep-hub-angular-dashboard.netlify.app/",
-    "description": "Games display built with Angular 12.2.7 and angular material. NOTE!: The api has changed since the build was deployed, new production is underway!",
+    "name": "Hart Licht Automatik",
+    "link": "https://hartlichtauto.com/",
+    "description": "Freelance project I did for a friend who wanted to start up a e-commerce shop, for 3d printers. This project is built on stripe and commerce.js",
     "repo": "https://github.com/BrianEP-hub/angular-dashboard-app",
-    "image": "https://res.cloudinary.com/dkzsmlfpl/image/upload/v1670749951/portfolio/gamesDashboard_ulxjns.avif"
+    "image": "https://res.cloudinary.com/dkzsmlfpl/image/upload/v1670764871/portfolio/hla_b6w2bk.avif"
   },
   {
     "name": "SpaceX microsite",

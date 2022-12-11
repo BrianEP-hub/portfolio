@@ -15,14 +15,11 @@ export class ProjectsComponent implements OnInit {
   projects: Projects[] = projectData;
   services: Services[] = serviceData;
 
-  // projectsData = projectData;
 
   constructor(){
 
   }
 
   ngOnInit(){
-    // console.log(this.projectsData)
-    console.log(this.projects)
   }
 }

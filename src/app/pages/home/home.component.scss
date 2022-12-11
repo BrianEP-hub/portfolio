@@ -1,6 +1,5 @@
 .wrapper {
   background-color: #191919;
-  min-height: 100vh;
 }
 .content-wrapper {
   display: flex;
@@ -50,40 +49,39 @@ ul.timeline {
   li {
     margin: 20px 0;
     padding-left: 20px;
-    .year{
-        background-color: #191919;
-        min-width: 50%;
-        margin-top: 15px;
-        max-width: 150px;
+    .year {
+      background-color: #191919;
+      min-width: 50%;
+      margin-top: 15px;
+      max-width: 150px;
     }
-    .description{
-        background-color: #212121;
-        min-width: 50%;
-        max-width: 250px;
-        padding: 5px;
+    .description {
+      background-color: #212121;
+      min-width: 50%;
+      max-width: 250px;
+      padding: 5px;
     }
   }
-  >li::before{
-        content: " ";
-        background: white;
-        display: inline-block;
-        position: absolute;
-        border-radius: 50%;
-        border: 3px solid #212121;
-        left: 20px;
-        width: 20px;
-        height: 20px;
-        z-index: 401;
-    }
+  > li::before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #212121;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 401;
+  }
 }
-ul.timeline::before{
-        content: " ";
-        background: #fff;
-        display: inline-block;
-        position: absolute;
-        left: 30px;
-        width: 5px;
-        height: 100%;
-        z-index: 400;
-      
+ul.timeline::before {
+  content: " ";
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  width: 5px;
+  height: 100%;
+  z-index: 400;
 }

@@ -12,8 +12,5 @@ export class NavigationComponent implements OnInit {
   }
 
   ngOnInit(): void{
-    this.activatedRoute.fragment.subscribe((val) => {
-      console.log(val)
-    })
   }
 }

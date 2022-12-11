@@ -1,4 +1,26 @@
-.wrapper{
-    background-color: #191919;
-    min-height: 100vh;
+.wrapper {
+  background-color: #191919;
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 10px;
+    }
+    .contact-info {
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        gap: 5px;
+        li{
+            font-size: 16px;
+        }
+      }
+    }
+  }
 }
