@@ -11,6 +11,12 @@ The project is built as a template and fetches data from json files within the a
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
+
+## Setup
+
+To set up the application make sure you have the correct version of Angular CLI installed.
+Then run command `npm install` to install all dependencies and follow along with the available scripts described below
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
