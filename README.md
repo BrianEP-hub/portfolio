@@ -3,6 +3,12 @@
 ## Languages used
 ![My Skills](https://skillicons.dev/icons?i=angular,scss,typescript)
 
+## Description
+
+This is my personal portfolio, where I am to add all my experience and projects into as the time goes.
+The project is built as a template and fetches data from json files within the assets. making it so that anyone could download the repo and set up their own data to create their own portfolio
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
 ## Development server
