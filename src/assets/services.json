@@ -1,32 +1,32 @@
 [
   {
     "service": "Web Design",
-    "description": "",
+    "description": "Need help getting a web design together? If you have a rough drawing I can prototype a layout",
     "icon": "design_services"
   },
   {
     "service": "App Development",
-    "description": "",
+    "description": "Mobile or web app, I can help out with coding and creating a clean and easy readable code",
     "icon": "developer_mode"
   },
   {
     "service": "Photography",
-    "description": "",
+    "description": "I am a hobby photographer, who likes to spend time outside in all seasons.",
     "icon": "photo_camera"
   },
   {
     "service": "Web Development",
-    "description": "",
+    "description": "Very passionate in web development, and all aspects of it. I am aspiring to become a fullstack developer in the future",
     "icon": "code"
   },
   {
     "service": "Content Writing",
-    "description": "",
+    "description": "Do you need help with content for your page? I can create a short summary and a detailed description based on the requirements",
     "icon": "drive_file_rename_outline"
   },
   {
     "service": "Video Editing",
-    "description": "",
+    "description": "Basic skills in video editing, but I have all the required software to do some touchups to a video",
     "icon": "movie_edit"
   }
 ]

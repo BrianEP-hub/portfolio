@@ -47,5 +47,9 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+        .service-card{
+            max-width: 300px;
+            min-height: 200px;
+        }
     }
 }

@@ -24,9 +24,10 @@
         </mat-card>
       </div>
     </div>
+    <mat-card-title>Services</mat-card-title>
     <div class="services">
       <div *ngFor="let service of services">
-        <mat-card>
+        <mat-card class="service-card">
           <mat-card-header>
             <div mat-card-avatar>
                 <mat-icon>{{service.icon}}</mat-icon>
@@ -35,7 +36,7 @@
               {{ service.service }}
             </mat-card-title>
           </mat-card-header>
-          <mat-card-content>
+          <mat-card-content class="service-card-content">
             <div class="description">
                 {{ service.description }}
             </div>
