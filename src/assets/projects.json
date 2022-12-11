@@ -16,9 +16,9 @@
   {
     "name": "JavaScript Frameworks 2",
     "link": "",
-    "description": "",
-    "repo": "https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-BrianEP-hub",
-    "image": "/assets/images/projects/"
+    "description": "Next.js assignment of which to create an API call and use server side rendering to display results from API call",
+    "repo": "https://github.com/BrianEP-hub/javascript-frameworks-ca",
+    "image": "https://via.placeholder.com/204x128"
   },
   {
     "name": "Crypto app",
