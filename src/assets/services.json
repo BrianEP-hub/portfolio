@@ -1,12 +1,32 @@
 [
   {
-    "service": "Design service",
+    "service": "Web Design",
     "description": "",
-    "icon": ""
+    "icon": "design_services"
   },
   {
-    "service": "Code service",
+    "service": "App Development",
     "description": "",
-    "icon": ""
+    "icon": "developer_mode"
+  },
+  {
+    "service": "Photography",
+    "description": "",
+    "icon": "photo_camera"
+  },
+  {
+    "service": "Web Development",
+    "description": "",
+    "icon": "code"
+  },
+  {
+    "service": "Content Writing",
+    "description": "",
+    "icon": "drive_file_rename_outline"
+  },
+  {
+    "service": "Video Editing",
+    "description": "",
+    "icon": "movie_edit"
   }
 ]

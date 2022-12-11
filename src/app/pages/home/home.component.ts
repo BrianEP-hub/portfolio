@@ -11,7 +11,6 @@ import educationData from '../../../assets/education.json';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-
   skills: Skills[] = skillsData;
 
   info: Info = infoData;
@@ -21,9 +20,7 @@ export class HomeComponent implements OnInit {
 
   constructor(){}
   ngOnInit(): void {
-    // console.log(this.skills)
+    
   }
-  
-
 
 }
