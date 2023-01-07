@@ -1,4 +1,5 @@
 # Portfolio
+[![pages-build-deployment](https://github.com/BrianEP-hub/portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/BrianEP-hub/portfolio/actions/workflows/pages/pages-build-deployment)
 
 ## Languages used
 ![My Skills](https://skillicons.dev/icons?i=angular,scss,typescript)
